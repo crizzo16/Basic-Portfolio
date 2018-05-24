@@ -1,0 +1,13 @@
+#me {
+    transform: rotate(90deg);
+    width: 200px;
+    display: inline;
+}
+
+.about-me {
+    display: inline-block;
+}
+
+.main-body {
+    background: #21444d;
+}
