@@ -152,28 +152,28 @@ textarea {
 }
 
 .description {
-    color: #ffffff;
-    background: #4aaaa5;
+    color: #000000;
+    background: rgba(204, 204, 204, .7);
     width: 86%;
     padding: 7%;
     text-align: center;
     margin: 0;
     position: absolute;
-    bottom: 15px;
+    bottom: 7px;
     /* Styles the font like before the reset */
     font-size: 0.83em;
     font-weight: bold;
 }
 
 .description:hover {
-    color: #000000;
-    background: rgba(204, 204, 204, .3);
+    color: #ffffff;
+    background: #4aaaa5;
 }
 
 .image-desc {
     float: left;
     margin: 0 10% 5% 0;
-    width: 30%;
+    width: 40%;
     height: 210px;
     position: relative;
 }
