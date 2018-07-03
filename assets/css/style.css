@@ -123,7 +123,7 @@ input {
 }
 
 #submit {
-    width: 10%;
+    width: 100px;
     color: #ffffff;
     background: #4aaaa5;
     border: 1px solid;
@@ -143,7 +143,7 @@ input {
 }
 
 textarea {
-    resize: none;
+    width: 890px;
 }
 
 /* Portfolio Images*/
@@ -203,4 +203,91 @@ footer {
     /* Styles the font like before the reset */
     font-size: 0.67em;
     font-weight: bold;
+}
+
+
+/* Media Queries*/
+/* 768 pixels and less*/
+@media screen and (max-width: 768px) {
+    .content {
+        max-width: 600px;
+    }
+
+    /* Contact Form*/
+    input {
+        width: 590px;
+    }
+
+    textarea {
+        max-width: 590px;
+    }
+
+    /* Portfolio images*/
+    .description {
+        bottom: 40px;
+    }
+
+    .image-desc {
+        width: 40%;
+    }
+}
+
+
+/* 640 pixels and less */
+@media screen and (max-width: 640px) {
+    .content {
+        max-width: 500px;
+    }
+
+    /* Contact Form*/
+    input {
+        width: 490px;
+    }
+
+    textarea {
+        max-width: 490px;
+    }
+
+    /* Portfolio images*/
+    .description {
+        bottom: 20px;
+    }
+
+    .image-desc {
+        width: 100%;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+
+    /* The Header */
+    header {
+        width: 100%;
+        background: #ffffff;
+        height: 144px;
+    }
+
+    .header_content {
+        max-width: 640px;
+    }
+
+    nav {
+        float: left;
+        height: 18px;
+        text-align: center;
+        width: 640px;
+        color: #777777;
+        padding: 27px 0 27px 0;
+        color: #cccccc;
+    }
+
+    #my_name {
+        width: 640px;
+        padding: 20px;
+        text-align: center;
+        float: left;
+        /* Styles the font like before the reset */
+        font-size: 2em;
+        font-weight: bold;
+    }
 }
